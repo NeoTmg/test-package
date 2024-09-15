@@ -1,6 +1,6 @@
 <?php
 
-namespace Neo\TestPackage\providers;
+namespace Neo\TestPackage;
 
 use Illuminate\Support\ServiceProvider;
 

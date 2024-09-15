@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "neo\\testpackage\\providers\\PackageServiceProvider"
+                "Neo\\TestPackage\\PackageServiceProvider"
             ]
         }
     },
