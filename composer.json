@@ -1,5 +1,5 @@
 {
-    "name": "neo/test-package",
+    "name": "neo/testpackage",
     "description": "test package",
     "type": "project",
     "license": "MIT",
@@ -8,11 +8,22 @@
             "Neo\\TestPackage\\": "src/"
         }
     },
+    
     "authors": [
         {
             "name": "Neo",
             "email": "tamangkiran485@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "neo\\testpackage\\PackageServiceProvider"
+            ]
+        }
+    }
 }
