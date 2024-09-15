@@ -3,7 +3,7 @@
         'name' => 'neo/testpackage',
         'pretty_version' => 'dev-staging',
         'version' => 'dev-staging',
-        'reference' => '38b3c129490e09304cb7529120b4a4a95c76619b',
+        'reference' => '30fd9d00b6e4edfc695a30af823ef527179d6116',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -76,7 +76,7 @@
         'neo/testpackage' => array(
             'pretty_version' => 'dev-staging',
             'version' => 'dev-staging',
-            'reference' => '38b3c129490e09304cb7529120b4a4a95c76619b',
+            'reference' => '30fd9d00b6e4edfc695a30af823ef527179d6116',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
