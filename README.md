@@ -18,15 +18,12 @@ Publishing Configuration
 After installing the package, you may publish the configuration file to customize settings:
 
 bash
-Copy code
 php artisan vendor:publish --provider="Neo\TestPackage\PackageServiceProvider" --tag=config
 This will copy the configuration file to config/testpackage.php where you can adjust the table name and database connection settings.
 
 Configuration
 In the config/testpackage.php file, you can configure the model settings:
-
-php
-Copy code
+ 
 return [
     'models' => [
         'shopify_orders' => 'shopify_orders_table_name',
@@ -61,8 +58,7 @@ $order = ShopifyOrder::find(1);
 Testing
 You can run tests for this package by navigating to the package directory and running:
 
-bash
-Copy code
+bash 
 php artisan test
 License
 This package is open-source and licensed under the MIT License.
