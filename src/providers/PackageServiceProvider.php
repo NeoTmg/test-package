@@ -3,6 +3,7 @@
 namespace Neo\TestPackage\providers;
 
 use Illuminate\Support\ServiceProvider;
+use Neo\TestPackage\Console\Commands\MakeModel;
 
 class PackageServiceProvider extends ServiceProvider
 {
@@ -27,6 +28,13 @@ class PackageServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $this->app->singleton('command.testpackage.make-model', function ($app) {
+            return new MakeModel();
+        });
+
+        $this->commands([
+            'command.testpackage.make-model',
+        ]);
         // Register config, commands, or bindings
         $this->mergeConfigFrom(__DIR__.'/../config/testpackage.php', 'testpackage');
     }

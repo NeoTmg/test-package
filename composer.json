@@ -23,6 +23,9 @@
         "laravel": {
             "providers": [
                 "Neo\\TestPackage\\providers\\PackageServiceProvider"
+            ],
+            "commands": [
+                "Neo\\TestPackage\\Console\\Commands\\MakeModel"
             ]
         }
     },
