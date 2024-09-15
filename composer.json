@@ -1,0 +1,18 @@
+{
+    "name": "neo/test-package",
+    "description": "test package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Neo\\TestPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Neo",
+            "email": "tamangkiran485@gmail.com"
+        }
+    ],
+    "require": {}
+}
