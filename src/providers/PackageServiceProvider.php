@@ -1,9 +1,9 @@
 <?php
 
-namespace Neo\TestPackage\providers;
+namespace Leaiserneo\TestPackage\providers;
 
 use Illuminate\Support\ServiceProvider;
-use Neo\TestPackage\Console\Commands\MakeModel;
+use Leaiserneo\TestPackage\Console\Commands\MakeModel;
 
 class PackageServiceProvider extends ServiceProvider
 {

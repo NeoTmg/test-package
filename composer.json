@@ -1,17 +1,17 @@
 {
-    "name": "neo/testpackage",
+    "name": "leaiserneo/testpackage",
     "description": "test package",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Neo\\TestPackage\\": "src"
+            "Leaiserneo\\TestPackage\\": "src"
         }
     },
     
     "authors": [
         {
-            "name": "Neo",
+            "name": "leaiserneo",
             "email": "tamangkiran485@gmail.com"
         }
     ],
@@ -22,10 +22,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Neo\\TestPackage\\providers\\PackageServiceProvider"
+                "Leaiserneo\\TestPackage\\providers\\PackageServiceProvider"
             ],
             "commands": [
-                "Neo\\TestPackage\\Console\\Commands\\MakeModel"
+                "Leaiserneo\\TestPackage\\Console\\Commands\\MakeModel"
             ]
         }
     },

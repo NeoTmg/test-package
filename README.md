@@ -13,12 +13,12 @@ A Laravel package for managing Shopify orders. This package provides a model and
 You can install the package via Composer. Run the following command in your Laravel project:
 
 ```bash
-composer require neo/testpackage
+composer require leaiserneo/testpackage
 Publishing Configuration
 After installing the package, you may publish the configuration file to customize settings:
 
 bash
-php artisan vendor:publish --provider="Neo\TestPackage\PackageServiceProvider" --tag=config
+php artisan vendor:publish --provider="Leaiserneo\TestPackage\PackageServiceProvider" --tag=config
 This will copy the configuration file to config/testpackage.php where you can adjust the table name and database connection settings.
 
 Configuration
@@ -48,7 +48,7 @@ Make sure to define the testpackage_connection in your config/database.php file:
 Usage
 To use the ShopifyOrder model provided by this package, simply interact with it as you would with any Eloquent model:
  
-use Neo\TestPackage\Models\Shopify\ShopifyOrder;
+use Leaiserneo\TestPackage\Models\Shopify\ShopifyOrder;
 
 // Retrieve all Shopify orders
 $orders = ShopifyOrder::all();
@@ -67,7 +67,7 @@ Contributing
 Feel free to contribute to this package by submitting issues or pull requests. Please ensure that you follow the coding standards and write tests for your changes.
 
 Contact
-For any questions or issues, please contact Neo.
+For any questions or issues, please contact Leaiserneo.
   
 ### Notes:
 

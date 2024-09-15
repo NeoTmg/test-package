@@ -1,6 +1,6 @@
 <?php
 
-namespace Neo\TestPackage\Console\Commands;
+namespace Leaiserneo\TestPackage\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
@@ -18,7 +18,7 @@ class MakeModel extends Command
     public function handle()
     {
         $name = $this->argument('name');
-        $modelPath = base_path('packages/neo/testpackage/src/Models/' . $this->getDirectoryPath($name));
+        $modelPath = base_path('packages/leaiserneo/testpackage/src/Models/' . $this->getDirectoryPath($name));
 
         // Ensure the directory exists
         if (!file_exists($modelPath)) {

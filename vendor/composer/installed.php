@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'neo/testpackage',
+        'name' => 'leaiserneo/testpackage',
         'pretty_version' => 'dev-staging',
         'version' => 'dev-staging',
-        'reference' => '1dbf0e78373cc047f9982eedf8822c2ca84bd5c3',
+        'reference' => 'da8a533892df2b8f269c43b565f829f85c35a6ef',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -73,10 +73,10 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'neo/testpackage' => array(
+        'leaiserneo/testpackage' => array(
             'pretty_version' => 'dev-staging',
             'version' => 'dev-staging',
-            'reference' => '1dbf0e78373cc047f9982eedf8822c2ca84bd5c3',
+            'reference' => 'da8a533892df2b8f269c43b565f829f85c35a6ef',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

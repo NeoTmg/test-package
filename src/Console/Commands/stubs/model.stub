@@ -1,6 +1,6 @@
 <?php
 
-namespace Neo\TestPackage\Models;
+namespace Leaiserneo\TestPackage\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

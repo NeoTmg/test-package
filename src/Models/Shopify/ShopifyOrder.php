@@ -1,6 +1,6 @@
 <?php
 
-namespace Neo\TestPackage\Models\Shopify;
+namespace Leaiserneo\TestPackage\Models\Shopify;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -34,9 +34,9 @@ class ComposerStaticInit27273dbd1ad639f764c78e3d6dcf17ce
             'Psr\\Container\\' => 14,
             'Psr\\Clock\\' => 10,
         ),
-        'N' => 
+        'L' => 
         array (
-            'Neo\\TestPackage\\' => 16,
+            'Leaiserneo\\TestPackage\\' => 23,
         ),
         'I' => 
         array (
@@ -91,9 +91,9 @@ class ComposerStaticInit27273dbd1ad639f764c78e3d6dcf17ce
         array (
             0 => __DIR__ . '/..' . '/psr/clock/src',
         ),
-        'Neo\\TestPackage\\' => 
+        'Leaiserneo\\TestPackage\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/providers',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Illuminate\\Support\\' => 
         array (
